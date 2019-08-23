@@ -1,0 +1,26 @@
+//This project is for interview Test
+//This project is dedicated for those who are in need to ensure their daily business.
+//Profile: www.eliasngumbipro.com
+//Email: eliasngumbi54@gmail.com
+//contact No; 0714643906
+
+CREATE DATABASE elias_db;//run mysql, go to 127.0.0.1/phpmyadmin and click sql then execute this query
+
+CREATE TABLE book_records_store(
+Book_No BIGINT NOT NULL AUTO_INCREMENT,
+Book VARCHAR(150) NOT NULL,
+Price DECIMAL(5,2) NOT NULL,
+PRIMARY KEY(Book_No))ENGINE=MyISAM AUTO_INCREMENT=1;//proceed to your database and click sql and run this query
+
+INSERT INTO book_records_store VALUES
+(null,'C++ for Starters','125.50'),
+(null,'Java AWT Package','178.50'),
+(null,'Visual Basic 2010 Ultimate Manual','196.50'),
+(null,'Working with Crystal Reports in Visual Basic 2010','186.75'),
+(null,'SQL Server 2008 R2 with Enma','198.00'),
+(null,'Java Server Page with NetBeans','178.50'),
+(null,'Active Server Page from Scratch','172.00'),
+(null,'PHP with Elias','165.00'),
+(null,'MySQL and PHP in 24Hours with Elias','189.00'),
+(null,'Adobe PhotoShop CS5: Web-Design','145.25');
+(null,'Leraning Python Tutorials with Elias','250.00');//click the table you've created and click sql and execute this query
